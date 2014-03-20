@@ -125,7 +125,7 @@ a:focus {
 
 
 @media(min-width:767px) {
-    
+
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -159,6 +159,8 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    overflow: hidden;
+    clear: both;
 }
 
 .intro-body {
@@ -229,7 +231,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -246,7 +248,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -286,7 +288,7 @@ a:focus {
 }
 
 @media(min-width:767px) {
-	
+
     .content-section {
         padding-top: 250px;
     }
@@ -346,7 +348,7 @@ a:focus {
 
 @media(max-width:767px) {
 
-	
+
 	#p2, #p3, #p4 {
 	    margin-top: 40px !important;
 	    margin-bottom: 0 !important;
@@ -365,7 +367,7 @@ a:focus {
     .twist {
 	    background: url(../img/3.jpg) no-repeat bottom center scroll !important;
     }
-    
+
     .inside {
 	    font-size: 1.8em !important;
 
@@ -377,7 +379,7 @@ a:focus {
     .twist p {
 		letter-spacing: 0;
     }
-	
+
     ul.banner-social-buttons>li {
         display: block;
         margin-bottom: 20px;
@@ -414,7 +416,7 @@ body {
 }
 
 /****************************************************************************
-M Y   S H I T 
+M Y   S H I T
 ****************************************************************************/
 
 
@@ -494,7 +496,7 @@ M Y   S H I T
 }
 
 .make-titles {
-	background-color: #232A31; 
+	background-color: #232A31;
 }
 
 .make-titles h3 {
@@ -574,7 +576,7 @@ M Y   S H I T
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	line-height: 200px;
-	
+
 }
 
 #followers {
@@ -646,37 +648,37 @@ M Y   S H I T
 	width: 30px;
 	height: 30px;
 	background: url(../img/why-1.png) no-repeat;
-	
+
 }
 #heart {
 	width: 30px;
 	height: 30px;
 	background: url(../img/why-2.png) no-repeat;
-	
+
 }
 #speaker {
 	width: 30px;
 	height: 30px;
 	background: url(../img/why-3.png) no-repeat;
-	
+
 }
 #keyboard {
 	width: 30px;
 	height: 30px;
 	background: url(../img/why-4.png) no-repeat;
-	
+
 }
 #clipboard {
 	width: 30px;
 	height: 30px;
 	background: url(../img/why-5.png) no-repeat;
-	
+
 }
 #beer {
 	width: 30px;
 	height: 30px;
 	background: url(../img/why-6.png) no-repeat;
-	
+
 }
 
 @media(max-width:992px) {
@@ -690,17 +692,18 @@ M Y   S H I T
     }
 	.why {
 /* 		background: red; */
-		width: 40%;
+		width: 60%;
 	}
-	
+
 }
 
 @media(min-width:768px) {
-/*
+
 	.why {
-		width: 70%;
+/*		background-color: red;*/
 	}
-*/
+
+
 	.build {
 		height: auto;
 	}
@@ -713,14 +716,36 @@ M Y   S H I T
 		margin: 10px 0;
 	}
 	.why {
+/*    background-color: blue;*/
 		width: 100%;
-		text-align: center;
+    margin: 0 auto !important;
+/*		text-align: center;*/
 	}
+  .why-icons {
+    float: none !important;
+    margin: 0 auto !important;
+  }
+  .phonetext {
+    margin: 20px 0;
+    text-align: center;
+  }
 /* 	RESPONSIVE TITLES */
 	.intro h1, .voice h1 {
 		font-size: 2em;
 	}
-	
+  .email {
+    float: none !important;
+    width: 100% !important;
+  }
+  .btn-primary {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #button-wrapper {
+    float: none !important;
+    width: 100% !important;
+  }
+
 }
 
 
@@ -811,13 +836,3 @@ form {
 	text-transform: uppercase;
 	letter-spacing: .5em;
 }
-
-
-
-
-
-
-
-
-
-
