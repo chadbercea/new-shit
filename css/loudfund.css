@@ -735,17 +735,35 @@ M Y   S H I T
 	}
   .email {
     float: none !important;
-    width: 100% !important;
+    width: 90% !important;
   }
   .btn-primary {
-    width: 100%;
+    width: 90%;
     margin-top: 20px;
   }
   #button-wrapper {
     float: none !important;
     width: 100% !important;
   }
-
+  .build {
+    width: auto !important;
+  }
+  .email-fix {
+    padding: 0 0;
+  }
+  .build h1 {
+    font-size: 2em !important;
+  }
+  .build p {
+    font-size: 1.5em !important;
+  }
+  .btn-primary, .btn-default {
+    width: 100%;
+  }
+  #button-container input {
+/*    margin: 20px 20px;*/
+    width: 90%
+  }
 }
 
 
